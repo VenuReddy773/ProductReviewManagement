@@ -50,6 +50,8 @@ namespace ProductReviewManagement
             manage.ProductReviewsDataTable(products);
             Console.WriteLine("Retrieve Data From Data Table!");
             manage.RetriveRecordsFromDataTable();
+            Console.WriteLine("Average of ratings");
+            manage.AveragePerProductId(products);
         }
     }
 }
