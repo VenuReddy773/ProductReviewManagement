@@ -44,6 +44,8 @@ namespace ProductReviewManagement
             manage.SelectedRecords(products);
             manage.RetrieveCountOfRecords(products);
             manage.RetrieveProductIdAndReview(products);
+            Console.WriteLine("Skip Top 5 Records!");
+            manage.SkipTopRecords(products);
         }
     }
 }
