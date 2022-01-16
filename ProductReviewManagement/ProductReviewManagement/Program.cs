@@ -43,6 +43,7 @@ namespace ProductReviewManagement
             manage.TopRecords(products);
             manage.SelectedRecords(products);
             manage.RetrieveCountOfRecords(products);
+            manage.RetrieveProductIdAndReview(products);
         }
     }
 }
